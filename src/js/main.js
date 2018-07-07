@@ -74,7 +74,9 @@ $(function()
     });
 
 
-  var menuLeft = document.getElementById( 'mobile-menu' ),
+
+window.onload = function(){
+   var menuLeft = document.getElementById( 'mobile-menu' ),
       showLeftPush = document.getElementById( 'showLeftPush' ),
       body = document.body;
 
@@ -83,3 +85,5 @@ $(function()
       classie.toggle( body, 'mobile-menu-push-toright' );
       classie.toggle( menuLeft, 'mobile-menu-open' );
   };
+}
+  
