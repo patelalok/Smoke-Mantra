@@ -5,7 +5,8 @@ jQuery(document).ready(function()
         navigation: true,
         items: 6,
         itemsTablet: [767, 3],
-        itemsTabletSmall: [721, 2]
+        itemsTabletSmall: [721, 2],
+        autoPlay: true
     });
 });
 

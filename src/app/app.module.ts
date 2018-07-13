@@ -6,6 +6,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './home/home.module';
+import { LoginModule } from './login/login.module';
+import { ProductModule } from './product/product.module';
+import { CheckoutModule } from './checkout/checkout.module';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { HomeModule } from './home/home.module';
     AppRoutingModule,
     BrowserModule,
     SharedModule,
-    HomeModule
+    HomeModule,
+    LoginModule,
+    ProductModule,
+    CheckoutModule
   ],
   exports: [SharedModule],
   declarations: [AppComponent],
