@@ -4,6 +4,7 @@ import { LoginComponent } from './login.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { SignupComponent } from './signup/signup.component';
+import { LoginService } from './login.service';
 
 @NgModule({
   imports: [
@@ -11,6 +12,7 @@ import { SignupComponent } from './signup/signup.component';
     SharedModule,
     AppRoutingModule
   ],
-  declarations: [LoginComponent, SignupComponent]
+  declarations: [LoginComponent, SignupComponent],
+  providers: [LoginService]
 })
 export class LoginModule { }
