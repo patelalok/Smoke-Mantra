@@ -24,6 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
+              "src/css/bootstrap.min.css",
               "src/css/owl-theme.css",
               "src/css/selectize.css",
               "src/css/component.css",
@@ -42,7 +43,8 @@
               "src/js/classie.js",
               "src/js/jquery.history.js",
               "src/js/menu.js",
-              "src/js/main.js"
+              "src/js/main.js",
+              "src/js/bootstrap.min.js"
             ]
           },
           "configurations": {
