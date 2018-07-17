@@ -11,7 +11,8 @@ jQuery(document).ready(function()
 
     jQuery(".site-nav-dropdown li a").on("click", function () 
     {
-        jQuery(".site-nav-dropdown li a").css("display","none");    });
+        jQuery(".site-nav-dropdown li a").css("display","none");    
+    });
 });
 
 $(function() 
