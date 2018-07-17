@@ -8,6 +8,10 @@ jQuery(document).ready(function()
         itemsTabletSmall: [721, 2],
         autoPlay: true
     });
+
+    jQuery(".site-nav-dropdown li a").on("click", function () 
+    {
+        jQuery(".site-nav-dropdown li a").css("display","none");    });
 });
 
 $(function() 
